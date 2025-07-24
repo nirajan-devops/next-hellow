@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    uses: nirajan-devops/test-repo/.github/workflows/deploy.yml@main
+    uses: nirajan-devops/test-repo/.github/workflows/ci.yml@main
     with:
       image-name: nextjs-app
       container-name: nextjs-app
